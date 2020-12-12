@@ -1,12 +1,15 @@
 <template>
-  <v-app id="inspire">
+  <v-app>
     <v-navigation-drawer 
       v-model="drawer"
       app
+      class="primary"
       >
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="title">
+          <v-list-item-title 
+            class="title"
+            >
             Categories
           </v-list-item-title>
         </v-list-item-content>
@@ -36,13 +39,13 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app>
+    <v-app-bar app class="primary">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Image Gallery</v-toolbar-title>
     </v-app-bar>
 
-    <v-main>
+    <v-main class="secondary">
       <router-view />
     </v-main>
   </v-app>

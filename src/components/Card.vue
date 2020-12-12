@@ -12,7 +12,7 @@
       height="200px"
     ></v-img>
 
-    <v-card-title>
+    <v-card-title class="primary">
     <h4>
       {{photo.photographer}}
     </h4>
