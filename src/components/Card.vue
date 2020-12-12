@@ -13,7 +13,9 @@
     ></v-img>
 
     <v-card-title>
+    <h4>
       {{photo.photographer}}
+    </h4>
     </v-card-title>
 
   </v-card>
