@@ -11,7 +11,7 @@
 import Card from '@/components/Card.vue'
 
 export default {
-  name: 'About',
+  name: 'Oceans',
   data() {
           return {
               oceans: [

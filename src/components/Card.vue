@@ -1,19 +1,19 @@
 <template>
 <div id="card-container">
   <v-card
-    v-for="ocean in photos"
-    :key="ocean.id"
+    v-for="photo in photos"
+    :key="photo.id"
     class="mx-auto"
     max-width="344"
     id="card"
   >
     <v-img
-      :src="`${ocean.src}`"
+      :src="`${photo.src}`"
       height="200px"
     ></v-img>
 
     <v-card-title>
-      {{ocean.photographer}}
+      {{photo.photographer}}
     </v-card-title>
 
   </v-card>

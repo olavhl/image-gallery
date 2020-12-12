@@ -54,11 +54,11 @@
       drawer: null,
       items: [
           { title: 'Pick a category', icon: 'mdi-cursor-default', to: '/' },
-          { title: 'Mountain', icon: 'mdi-image-filter-hdr', to: '/mountain' },
-          { title: 'Ocean', icon: 'mdi-wave', to: '/about' },
-          { title: 'Tropical', icon: 'mdi-palm-tree', to: '/tropical' },
-          { title: 'Forrest', icon: 'mdi-pine-tree', to: '/forrest' },
-          { title: 'Snowy', icon: 'mdi-snowflake', to: '/snowy' },
+          { title: 'Mountain', icon: 'mdi-image-filter-hdr', to: '/mountains' },
+          { title: 'Ocean', icon: 'mdi-wave', to: '/oceans' },
+          { title: 'Tropical', icon: 'mdi-palm-tree', to: '/tropicals' },
+          { title: 'Forrest', icon: 'mdi-pine-tree', to: '/forrests' },
+          { title: 'Snowy', icon: 'mdi-snowflake', to: '/snowys' },
         ],
       }),
   }
