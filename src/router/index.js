@@ -19,6 +19,21 @@ const routes = [
     path: '/oceans',
     name: 'Oceans',
     component: () => import(/* webpackChunkName: "about" */ '../views/Oceans.vue')
+  },
+  {
+    path: '/tropical',
+    name: 'Tropical',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Tropical.vue')
+  },
+  {
+    path: '/forests',
+    name: 'Forests',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Forests.vue')
+  },
+  {
+    path: '/snowy',
+    name: 'Snowy',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Snowy.vue')
   }
 ]
 
